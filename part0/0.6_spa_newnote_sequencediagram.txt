@@ -1,0 +1,17 @@
+sequence diagram
+
+browser
+server
+
+Note: A form with input field and save button on browser.
+
+
+Browser --Add newnote --save ->Server --  https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+Server -> Browser : HTTP status code 201
+
+
+Note:With status code 201 the server does not ask for a redirect, the browser stays on the same page, and it sends no further HTTP requests.
+
+Note : The browser executes the event handler that renders the notes to display
+
+
