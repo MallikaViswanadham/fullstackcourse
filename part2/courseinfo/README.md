@@ -1,1 +1,0 @@
-This application displays the coursename, list of parts in the course and number of exercises in each part
